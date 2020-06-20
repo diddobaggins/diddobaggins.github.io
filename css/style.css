@@ -45,7 +45,7 @@ a {
 }
 
 .navbar-toggler-icon {
-  background-color: #000000;
+  background-image: url('../images/menu.png')
 }
 
 .sticky {
@@ -144,10 +144,6 @@ h2 {
   height: 2px;
   background: #D2C295;
   transition: width .5s;
-}
-
-.nav-link:hover::after {
-  width: 100%;
 }
 
 .zoom {
@@ -302,10 +298,6 @@ u {
   color: #373737;
 }
 
-.active::after {
-  width: 100%;
-}
-
 .articletext {
   color: #373737;
 }
@@ -328,14 +320,30 @@ u {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 992px) {
-  .card-text {
+.cmargin {
+  margin-bottom: 2rem;
+}
 
+@media (max-width: 992px) {
+  .vh {
+    margin-bottom: 10rem;
   }
 }
 
-@media (max-width: 1200px) {
-  .card-text {
-    font-size: 80%
+@media (min-width:992px) and (max-width:1200px) {
+    .faqs h1 {
+      font-size: 180%;
+    }
+    .faqs p {
+      font-size:90%;
+    }
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  .active::after {
+    width: 100%;
   }
 }
