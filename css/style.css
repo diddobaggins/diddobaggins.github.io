@@ -84,12 +84,12 @@ a {
 }
 
 .goldbox {
-  height:140px;
+  height:100px;
   width:100%;
   background:#D2C295;
   position:static;
   bottom: 0;
-  margin-top: -5.8rem;
+  margin-top: -4rem;
   margin-bottom: 3rem;
 }
 
